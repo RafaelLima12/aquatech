@@ -1,0 +1,159 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    border-bottom: 5px solid cyan;
+}
+
+.header .container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.navbar a, .navbar{
+    color: gold;
+}
+
+.titulo {
+    color: cyan;
+}
+
+.banner{
+    background: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    height: 500px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+}
+
+.banner .container p{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: right;
+}
+
+.banner .container span{
+    font-weight: bold;
+}
+
+.social{
+    background-color: rgb(210, 210, 210);
+    padding: 40px;
+}
+
+.social img{
+    width: 100px;
+}
+
+.boxes{
+    display: flex;
+    margin: 30px;
+    gap: 90px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social h4{
+    color: rgb(255, 0, 43);
+    padding: 10px;
+}
+
+.footer{
+    background-color: rgb(0, 185, 210);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-top: 5px solid rgba(36, 134, 147, 0.416);
+}
+
+.footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.login{
+    display: flex;
+    background: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    height: 590px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card{
+    background-color: rgb(219, 218, 218);
+    width: 550px;
+    height: 280px;
+    min-height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(255, 82, 111);
+    padding: 20px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#senha_input, #email_input, #codigo_input, #nome_input, #confirmacao_senha_input{
+    border: 2px solid rgb(0, 185, 210);
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    border: none;
+    border-radius: 5px;
+    width: 25%;
+    height: 25px;
+    background-color: rgb(255, 56, 89);
+    color: white;
+    margin-top: 15px;
+}
